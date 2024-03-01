@@ -1,4 +1,4 @@
-# Guess the Number (Computer Version) README
+# Number Guessing Game (Computer Version)
 
 ### Game Logic
 The "Guess the Number" game is a simple Python program where the computer selects a random number within a specified range, and the player tries to guess that number. Here's how the game works:
