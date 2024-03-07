@@ -29,7 +29,7 @@ class HumanPlayer(Player):
         valid_square = False
         val = None
         while not valid_square:
-            square = input(self.letter + '\'s turn. Input move (0-9): ')
+            square = input(self.letter + '\'s turn. Input move (0-8): ')
             '''Accomplish a series of checks:
             we're going to check that this is a correct value by trying to cast
             it to an integer, and if it's not, and if not, then we say its invalid
