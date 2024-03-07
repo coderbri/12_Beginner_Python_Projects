@@ -18,7 +18,8 @@ In this **Rock Paper Scissors** game, players can input their choice ('r' for ro
 ### 5. [Hangman](05_hangman/)
 The **Hangman** game project is a Python-based console game that challenges players to guess a hidden word before running out of lives. The game randomly selects a word from a predefined list and presents it as a series of dashes representing each letter. Players guess letters one at a time, with correct guesses revealing the corresponding letters in the word, while incorrect guesses deduct lives. The game incorporates ASCII art to visually represent the Hangman's stages as players progress.
 
-### 6. Tic-Tac-Toe
+### 6. [Tic-Tac-Toe](06_tic_tac_toe/)
+The **Tic-Tac-Toe** project is a simple yet classic implementation of the popular game in Python. It allows two players to compete against each other, with one player being a human and the other being a computer (or another player*). The game logic is encapsulated within the `TicTacToe` class, where the board is represented as a single list and moves are validated and executed accordingly. Players can make their moves either by inputting their choice as a human player or by having the computer randomly select its moves as the opponent. The game continues until one player achieves three marks in a row (horizontally, vertically, or diagonally) or until the board is full without a winner, resulting in a tie. The project demonstrates basic concepts of object-oriented programming, inheritance, and game logic implementation in Python.
 
 ### 7. Tic-Tac-Toe AI
 
