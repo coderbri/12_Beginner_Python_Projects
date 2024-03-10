@@ -123,5 +123,6 @@ def play(game, x_player, o_player, print_game=True):
 if __name__ == '__main__':
     x_player = HumanPlayer('X')
     o_player = RandomComputerPlayer('O')
+    # o_player = HumanPlayer('O')
     tttGame = TicTacToe()
     play(tttGame, x_player, o_player, print_game=True)

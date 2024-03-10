@@ -1,6 +1,6 @@
 # 06 Tic-Tac-Toe
 
-This is a simple implementation of the classic Tic Tac Toe game in Python. The game allows two players to play against each other: one player being a human and the other being a computer.
+This is a simple implementation of the classic Tic Tac Toe game in Python. The game allows two players to play against each other: one player being a human and the other being a computer or another human.
 
 ## Contents
 
@@ -22,6 +22,7 @@ This is a simple implementation of the classic Tic Tac Toe game in Python. The g
 
 The Tic Tac Toe game consists of a 3x3 grid where two players take turns marking spaces ('X' or 'O') until one player wins by getting three of their marks in a horizontal, vertical, or diagonal row, or if the board is full without a winner, resulting in a tie.
 
+
 ## Player Types
 
 ### Human Player
@@ -31,6 +32,7 @@ The `HumanPlayer` class represents a player controlled by a human. This player t
 ### Random Computer Player
 
 The `RandomComputerPlayer` class represents a player controlled by the computer. This player type randomly selects an available move from the list of available moves on the board.
+
 
 ## Tic Tac Toe Logic
 
@@ -50,6 +52,7 @@ The `make_move()` method takes a square index and a player's letter as input. It
 
 The `determine_winner()` method checks if the latest move resulted in a win for the player. It checks all possible winning combinations: rows, columns, and diagonals.
 
+
 ## How to Play
 
 To play the Tic Tac Toe game, simply run the `game.py` script. You will be prompted to input your move as a human player, and the computer will randomly select its moves as the opponent. The game will continue until there is a winner or a tie.
@@ -59,10 +62,12 @@ To play the Tic Tac Toe game, simply run the `game.py` script. You will be promp
 To play the game, execute the following command in your terminal:
 
 ```bash
-python game.py
+python3 game.py
 ```
 
-<!-- ![Tic-Tac-Toe Game Demo](./imgs/TicTacToe-demo.png) -->
+<div align="center">
+    <img src="./imgs/TicTacToe-Demo.gif" width="450px" height="auto">
+  </div>
 
 ---
 <p align="right">Completed: ２０２４年０３月０５日（水）</p>
