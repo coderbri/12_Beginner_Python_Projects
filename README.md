@@ -21,9 +21,12 @@ The **Hangman** game project is a Python-based console game that challenges play
 ### 6. [Tic-Tac-Toe](06_tic_tac_toe/)
 The **Tic-Tac-Toe** project is a simple yet classic implementation of the popular game in Python. It allows two players to compete against each other, with one player being a human and the other being a computer (or another player*). The game logic is encapsulated within the `TicTacToe` class, where the board is represented as a single list and moves are validated and executed accordingly. Players can make their moves either by inputting their choice as a human player or by having the computer randomly select its moves as the opponent. The game continues until one player achieves three marks in a row (horizontally, vertically, or diagonally) or until the board is full without a winner, resulting in a tie. The project demonstrates basic concepts of object-oriented programming, inheritance, and game logic implementation in Python.
 
-### 7. Tic-Tac-Toe AI
+### 7. [Tic-Tac-Toe AI](07_tic_tac_toe_AI/)
+The updated version of this **Tic-Tac-Toe** game introduces a more challenging opponent with the addition of the `GeniusComputerPlayer` class, which utilizes the minimax algorithm to make strategic moves. This AI player evaluates all possible future game states to determine the optimal move, providing a more engaging experience for players seeking a tougher challenge. Additionally, the project includes a simulation loop that allows users to observe the AI player competing against itself, providing insights into its performance and effectiveness. With these enhancements, the tic-tac-toe game offers an improved gaming experience, combining classic gameplay with advanced AI techniques.
 
-### 8. Binary Search
+### 8. [Binary Search](08_binary_search/)
+The **Binary Search** project showcases the implementation and comparison of two fundamental search algorithms: naive search and binary search. Naive search involves sequentially scanning a list to find a target value, while binary search leverages the concept of divide and conquer to efficiently locate the target in a sorted list. The Python code provided demonstrates these algorithms' functionality and performance difference by measuring the time taken to search for elements in a sorted list.
+<!-- Through this project, users can understand the logic behind both search algorithms and appreciate the significant efficiency improvement offered by binary search, particularly for large datasets. -->
 
 ### 9. Minesweeper
 
