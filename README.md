@@ -3,7 +3,7 @@
 Based on this [freeCodeCamp Python Coding Course](https://youtu.be/8ext9G7xspg?si=0wxN4enC_zf7KdcQ).
 
 
-### [1. Madlibs](01_madlibs/)
+### 1. [Madlibs](01_madlibs/)
 The **Madlibs project** is a Python program that demonstrates string manipulation techniques, particularly string concatenation with f-strings, and user interaction through the input function. Users provide words and phrases which are then dynamically incorporated into a predefined Madlib template, showcasing how Python can generate personalized narratives based on user input. This specific Madlib adventure, titled "VISITING CHINA," serves as an example, where users input various details to create a customized story set in China.
 
 ### 2. [Number Guessing Game (Computer Version)](02_number_guessing_game_computer/)
@@ -28,7 +28,8 @@ The updated version of this **Tic-Tac-Toe** game introduces a more challenging o
 The **Binary Search** project showcases the implementation and comparison of two fundamental search algorithms: naive search and binary search. Naive search involves sequentially scanning a list to find a target value, while binary search leverages the concept of divide and conquer to efficiently locate the target in a sorted list. The Python code provided demonstrates these algorithms' functionality and performance difference by measuring the time taken to search for elements in a sorted list.
 <!-- Through this project, users can understand the logic behind both search algorithms and appreciate the significant efficiency improvement offered by binary search, particularly for large datasets. -->
 
-### 9. Minesweeper
+### 9. [Minesweeper](09_minesweeper/)
+This project implements the classic **Minesweeper** game in Python, allowing players to experience the familiar puzzle challenge of uncovering safe cells while avoiding hidden bombs on a grid-based game board. The game logic is implemented through a `Board` class, which dynamically generates a game board with randomly placed bombs and assigns values to each cell indicating the number of neighboring bombs. Players interact with the game by selecting cells to uncover, and the game recursively reveals neighboring cells until all safe cells are uncovered or a bomb is hit. Input validation ensures that players input valid cell coordinates. This implementation provides a console-based Minesweeper experience in the Python environment.
 
 ### 10. Sudoku Solver
 
