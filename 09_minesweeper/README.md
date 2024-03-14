@@ -1,4 +1,4 @@
-# Minesweeper
+# 09 Minesweeper
 
 Minesweeper is a classic single-player puzzle game where the player must uncover all non-bomb cells on a grid without detonating any bombs. The game board consists of a grid of cells, some of which contain hidden bombs. The player must use logic to determine which cells are safe to uncover by revealing the number of neighboring bombs in each cell.
 
@@ -44,7 +44,7 @@ $ python3 minesweeper.py
 ```
 
 <div align="center">
-    <img src="" alt="minesweeper_playthrough" width="450px" height="auto">
+    <img src="./img/minesweeper_demo.gif" alt="minesweeper_playthrough" width="450px" height="auto">
 </div>
 
 4. **Game Over**:
