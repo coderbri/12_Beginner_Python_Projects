@@ -31,7 +31,11 @@ The **Binary Search** project showcases the implementation and comparison of two
 ### 9. [Minesweeper](09_minesweeper/)
 This project implements the classic **Minesweeper** game in Python, allowing players to experience the familiar puzzle challenge of uncovering safe cells while avoiding hidden bombs on a grid-based game board. The game logic is implemented through a `Board` class, which dynamically generates a game board with randomly placed bombs and assigns values to each cell indicating the number of neighboring bombs. Players interact with the game by selecting cells to uncover, and the game recursively reveals neighboring cells until all safe cells are uncovered or a bomb is hit. Input validation ensures that players input valid cell coordinates. This implementation provides a console-based Minesweeper experience in the Python environment.
 
-### 10. Sudoku Solver
+
+### 10. [Sudoku Solver](10_sudoku_solver/)
+
+This Python **Sudoku Solver** project utilizes recursion to efficiently solve Sudoku puzzles. Recursion is a key programming technique where a function calls itself to solve smaller instances of the same problem, eventually reaching a base case. The solver systematically fills empty cells in the Sudoku grid with valid numbers, backtracking when necessary if a guess leads to a dead end. By recursively exploring all possible combinations of numbers, the solver determines the correct arrangement of digits that satisfies Sudoku rules. This project provides a clear demonstration of how recursion can be applied to solve complex logic puzzles like Sudoku.
+
 
 ### 11. Photo Processing
 
