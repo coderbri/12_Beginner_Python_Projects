@@ -46,7 +46,7 @@ if __name__ == '__main__':
 ```
 
 ## Credits
-This project is inspired by Kylie Ying's Beginner Python Projects Course.
+This project is inspired by Kylie Ying's [Beginner Python Projects Course](https://www.youtube.com/watch?v=8ext9G7xspg).
 
 ---
 <p align="right">Completed: ２０２４年０３月１３日（水）</p>
