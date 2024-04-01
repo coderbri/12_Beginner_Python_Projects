@@ -58,7 +58,7 @@ This Python **Sudoku Solver** project utilizes recursion to efficiently solve Su
 
 This **Photo Manipulation** project is a Python-based photo manipulation tool in which it enables users to perform various image editing operations such as brightening, contrast adjustment, blur, edge detection, and image combination. Each function within the `transform.py` script applies a specific manipulation technique to input images, producing modified versions as output. Overall, the project offers a simple yet effective tool for performing basic photo editing tasks using Python.
 
-### 12. Markov Chain Composer
+### 12. [Markov Chain Composer](12_markov_chain_composer/)
 
 The **Markov Chain Text Composer** is a Python-based tool designed to generate new text compositions inspired by existing sources, such as song lyrics. Leveraging the principles of Markov chains, graph theory, and probability, the tool analyzes input text data to model the statistical relationships between words. The project consists of several modules, each serving a specific function: `lyrics.py` facilitates the retrieval and storage of song lyrics using the Genius API, `graph.py` constructs and manipulates graph structures to represent word relationships, and `compose.py` orchestrates the composition process using the Markov Chain model. By combining these components, the Markov Chain Text Composer can create compelling and coherent text compositions that mimic the style and structure of the original input text. Whether used for artistic expression, creative writing, or linguistic analysis, this project offers a versatile and powerful tool for generating unique textual content.
 
